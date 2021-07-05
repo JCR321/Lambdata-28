@@ -1,1 +1,1 @@
-COLORS = ["Blue", "Red", "Green"]
+COLORS=["Blue", "Red", "Green"]
