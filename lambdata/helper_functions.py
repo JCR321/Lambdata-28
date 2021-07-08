@@ -2,11 +2,11 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 import random
-df = pd.read_csv('Salary_Data.csv')
+import sys
+import pytest
+import math
 
-def train_test_split(df, frac=0.3):
-    print(train_test_split)
-split=train_test_split
-def null_count(df):
-    print(null_count)
-null=null_count
+"""A simple test for confirming the square root of a number"""
+def test_sqrt():
+    num = 16
+    assert math.sqrt(num) == 4
